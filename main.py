@@ -7,8 +7,8 @@ FONT = 'Lato Medium'
 BOLD = True
 INDENT_INCHES = 1.5
 
-DOCX_TEMPLATE = 'sample.docx'
-CSV_FILE = 'members_status.csv'
+DOCX_TEMPLATE = 'header-probi.docx'
+CSV_FILE = 'probi_members.csv'
 
 def replace_variable(paragraph, variable, value):
     return paragraph.replace(variable, value)
